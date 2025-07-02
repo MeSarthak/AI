@@ -10,6 +10,8 @@ from rest_framework import status
 from django.conf import settings
 from .serializers import UploadSerializer
 from django.core.files.storage import default_storage
+from sklearn.decomposition import PCA
+from sklearn.ensemble import IsolationForest
 
 class FileUploadView(APIView):
     def post(self, request, format=None):
@@ -134,4 +136,6 @@ class FileUploadView(APIView):
             'threshold': threshold,
             'save_result': save_result
         }
+
+
 
