@@ -136,10 +136,8 @@ python test_model_loading.py
 ## 🚀 Deployment
 
 ### Frontend Deployment
-This project is configured for deployment on [Lovable](https://lovable.dev/projects/2ec5bf78-4bf5-4e59-b623-f3ec75a38907):
+This project is configured for deployment on [Github](https://github.com/MeSarthak/AI)
 
-1. Open the [Lovable Project](https://lovable.dev/projects/2ec5bf78-4bf5-4e59-b623-f3ec75a38907)
-2. Click **Share → Publish**
 
 ### Backend Deployment
 For production deployment:
